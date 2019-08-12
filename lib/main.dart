@@ -85,7 +85,7 @@ class RandomWordsState extends State<RandomWords> {
       ),
       trailing: Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.blue : null,
+        color: alreadySaved ? Colors.black : null,
       ),
       onTap: () {
         // Add 9 lines from here...
